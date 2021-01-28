@@ -1,0 +1,30 @@
+﻿
+table {
+    background-image: url('space.jpg');
+    border: 1px groove white;
+    padding: 5px;
+    text-align: center;
+    width:50%;
+    font-family: 'Gill Sans';
+    margin-top: 4px;
+    color: white;
+}
+
+tr, td{
+	border: 1px groove white;
+}
+
+h1 {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    color:white;
+}
+
+body {
+    background-image: url('spiral.jpg');
+}
+container {
+    margin: 10px, 10px, 10px, 10px;
+}
+
+
