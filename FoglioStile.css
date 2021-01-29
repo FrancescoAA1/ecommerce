@@ -11,7 +11,7 @@ table {
 }
 
 tr, td{
-	border: 1px groove white;
+	border: 1px groove rgb(161, 161, 161);
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 }
 
 body {
-    background-image: url('spiral.jpg');
+    background: linear-gradient (35deg, #4b6cb7, #182848);
 }
 container {
     margin: 10px, 10px, 10px, 16px;
