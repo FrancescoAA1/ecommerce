@@ -1,52 +1,27 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="FoglioStile.css" />
-    <title>File JSON</title>
+    <title>Header</title>
 </head>
 <body>
-    <div class="container col-lg-8 col-md-8">
-        <h1>Archivio della Videoteca</h1>
-            <script language="JavaScript">
-                var archivio = {
-                    "videoteca": [
-                        {
-                            "titolo": "Cyberpunk 2077",
-                            "genere": "RPG",
-                            "tipologia": "Videogame",
-                            "anno": "2020"
-                        },
-                        {
-                            "titolo": "The Witcher 3",
-                            "genere": "RPG",
-                            "tipologia": "Videogame",
-                            "anno": "2015"
-                        },
-                        {
-                            "titolo": "The Manchurian Candidate",
-                            "genere": "Thriller",
-                            "tipologia": "Film",
-                            "anno": "2004"
-                        },
-                        {
-                            "titolo": "Hackers",
-                            "genere": "Fantastico",
-                            "tipologia": "Film",
-                            "anno": "1995"
-                        }
-                    ]
-                }
-
-                document.write("<table class ='table table-responsive'><tr><td>ID</td><td>Titolo</td><td>Anno</td><td>Categoria</td><td>Anno</td></tr>");
-                for (var i = 0; i < archivio.videoteca.length; i++) {
-                    document.write("<tr><td>" + (i + 1) + "</td><td>" + archivio.videoteca[i].titolo + "</td><td>" + archivio.videoteca[i].genere + "</td><td>" + archivio.videoteca[i].tipologia + "</td><td>" + archivio.videoteca[i].anno + "</td></tr>");
-                }
-                document.write("</table>");
-            </script>
+    <header>
+        <div class="header">
+            <a href="#"><img src="" alt="logoregistro"></a>
+            <nav>
+            <ul>
+                <li>
+                    <a href="#">Progetto</a>
+                </li>
+                <li>
+                    <a href="#">Contatti</a>
+                </li>
+                <li>
+                    <a href="#">Accedi</a>
+                </li>
+            </ul>
+        </nav>
         </div>
+    </header>
 </body>
-</html>
