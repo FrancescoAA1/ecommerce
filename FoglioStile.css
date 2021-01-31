@@ -1,24 +1,39 @@
 ﻿body {
-    background: linear-gradient(45deg, #2C3E50, #000000);
+    background: linear-gradient( #2C3E50, #000000);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: whitesmoke;
+    height: 200px;
 }
 
 header{
+    height: 50%;
     background: linear-gradient(45deg, #0cebeb, #20e3b2, #29ffc6);
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header{
+    width: 25%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.header-buttons{
+    width: 50%;
 }
 
 ul{
     text-decoration: none;
-    display: flex;
     padding: 5px;
+    display: flex;
+    justify-content: space-around;
 }
 
 li{
