@@ -1,19 +1,21 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Monofett&display=swap');
+
+body {
     background: linear-gradient( #D7E1EC, #ffffff);
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: black;
+    color: white;
     height: 200px;
 }
 
 header{
     height: 50%;
     background: linear-gradient(45deg, #1A2980, #1A2979, #26D0CE);
-    font-family: 'Londrina Solid', monospace;
+    font-family: 'Lobster', sans-serif;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,13 +25,19 @@ a{
     color: white;
 }
 .header{
-    width: 25%;
+    width: 20%;
     display: flex;
     justify-content: center;
 }
 
 .header-buttons{
-    width: 50%;
+    width: 40%;
+}
+
+
+.image{
+    width: 200px;
+    height: 70px;
 }
 
 ul{
